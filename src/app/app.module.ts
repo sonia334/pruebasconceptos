@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Hijo1Component } from './hijo1/hijo1.component';
+import { ConnavbarComponent } from './connavbar/connavbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Hijo1Component
+    Hijo1Component,
+    ConnavbarComponent
   ],
   imports: [
     BrowserModule,

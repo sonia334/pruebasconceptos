@@ -7,13 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PruebasConceptos';
-public aimprimirenelpadre:string
+public navbarvisible:boolean
 constructor(){
-  this.aimprimirenelpadre=''
+  this.navbarvisible=false
 }
-  imprimeenpadre(event:any){
+  navbar(event:any){
     console.log('holaaaa')
-    this.aimprimirenelpadre=event;
+    this.navbarvisible=true;
 
   }
 }
