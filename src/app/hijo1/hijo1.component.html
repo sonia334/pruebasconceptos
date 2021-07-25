@@ -1,0 +1,11 @@
+<h2>Soy el componente hijo</h2>
+<p>Vamos a intentar pasar la info de un input al componente padre</p>
+<div class="container">
+    <form>
+        <div>
+          <label for="output" class="form-label">Output</label>
+          <input type="text" class="form-control" id="output" aria-describedby="emailHelp" [(ngModel)]="output" name="output">
+        </div>
+        <button (click)="capturaEvento()" class="btn btn-primary mt-2">Submit</button>
+      </form>
+</div>
